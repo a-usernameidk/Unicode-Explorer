@@ -1,0 +1,9 @@
+# Core UI. Ships its own Qt runtime; no system Qt needed.
+PySide6>=6.7.2
+
+# Optional: global hotkey support. The app runs fine without it (use the tray
+# icon). Needs Administrator on Windows and root on Linux.
+keyboard==0.13.5
+
+# pywin32 is NO LONGER required -- clipboard handling moved to Qt, which works
+# correctly on Windows, macOS and Linux.
